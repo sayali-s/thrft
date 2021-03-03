@@ -1,0 +1,41 @@
+@import url(stylesheet.css);
+@import url(about.css);
+
+main{
+    margin: 0;
+    text-align: left;
+}
+
+main h1, main h2{
+    text-align: center;
+}
+main p{
+    font-style: normal;
+    margin: 10px 420px ;
+}
+
+.unstyled-items:link{
+    text-decoration: none;
+    text-align: left;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom:10px;
+    font-size: 120%;
+}
+
+.unstyled-items:hover{
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.unstyled-items:visited {
+    text-decoration: none;
+    color: #000000;
+    font-size: 120%;
+}
+
+.picture{
+    display: block;
+    width: 650px;
+    margin: 10px;
+}

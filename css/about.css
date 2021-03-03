@@ -1,0 +1,76 @@
+@import url(stylesheet.css);
+
+*{
+    margin: 0;
+}
+main{
+    text-align: center;
+    margin: 70px;
+}
+
+main p{
+    font-style: italic;
+    margin: 20px;
+}
+
+main > h1{
+    font-weight: 500;
+    margin: 20px;
+}
+
+.about-container{
+    padding: 5rem;
+    background-color: #FDCFA5;
+}
+
+.about-container p{
+    text-align: center;
+    margin: 0 10rem;
+    padding: 1rem;
+}
+
+.contact-us{
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgb(121, 167, 98);
+    color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin: 20px;
+    padding: 60px;
+}
+
+.contact-us p{
+    font-size: 90%;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type=text] {
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    flex-wrap: wrap;
+    padding: 12px 20px;
+    margin: 8px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(111, 111, 111);
+    color: #ffffff;
+  }
